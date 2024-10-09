@@ -103,7 +103,7 @@ function Box({ loginDivController, giveLoginStatus, item, voteup, votedown }) {
       {/* {console.log(handleToggle)} */}
       {}
       <div className=' w-20 bg-need-blue rounded-3xl  flex'>
-        <section className='flex flex-col ml-3 mt-9 mr-1'>
+        <section className='flex flex-col items-center ml-3 mt-9 mr-1'>
           <Toggle
             name='toggleUp'
             data-state={datastateup}
@@ -115,7 +115,7 @@ function Box({ loginDivController, giveLoginStatus, item, voteup, votedown }) {
               icon={faAngleUp}
             />
           </Toggle>
-          <h1 className='text-need-gray text-lg font-bold mt-4 ml-4'>{vote}</h1>
+          <h1 className='text-need-gray text-lg font-bold mt-4'>{vote}</h1>
           <Toggle
             data-state={datastatedown}
             onPressedChange={handleToggleDown}

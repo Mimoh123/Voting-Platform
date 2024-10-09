@@ -6,7 +6,7 @@ function Search({ setText, text, handlesubmit }) {
     <div className='flex mb-10 mt-10 w-full justify-end'>
       <form onSubmit={handlesubmit}>
         <input
-          className='border-b-2 border-black bg-white mr-8'
+          className='border-b-2 border-black bg-white mr-8 p-1 pl-2'
           placeholder='Request a feature'
           type='text'
           value={text}
